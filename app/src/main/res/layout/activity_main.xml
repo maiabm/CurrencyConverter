@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:theme="@style/Theme.Design.NoActionBar" >
 
     <EditText
         android:id="@+id/entryId"
@@ -52,4 +53,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultId" />
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
